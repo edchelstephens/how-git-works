@@ -35,3 +35,22 @@
     100644 blob 402eeec6649f38a4486254b2cf2f557c23ff2c23	README.md
     100644 blob 23991897e13e47ed0adb91a0082c31c82fe0cbe5	menu.txt
     040000 tree 3c47a1f346ce6bf101bdd16ff95790ae04ed8f60	recipes
+
+
+    **Adding another commit**
+    >> git log
+    commit 4264fec50563f68244136121bb61e7495708d25f
+    Author: Edchel Stephen <yahshua.ninies@gmail.com>
+    Date:   Tue May 11 09:44:46 2021 +0800
+
+        README notes on course.
+
+
+    **Showing the contents of the second commit**
+    >> git cat-file -p 4264fec50563f68244136121bb61e7495708d25f
+    tree 83abe5341aba3b898914d723154676f7f87a9006
+    parent 2eb4d64cb86d13829672b6744660d8b5cfffa564
+    author Edchel Stephen <yahshua.ninies@gmail.com> 1620697486 +0800
+    committer Edchel Stephen <yahshua.ninies@gmail.com> 1620697486 +0800
+
+    README notes on course.
