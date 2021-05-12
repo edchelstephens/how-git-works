@@ -58,3 +58,10 @@
 ## Tags
 
     - tags are just a label attached to an object
+
+## Names of objects
+
+    - The names of blobs and trees are not in the objects themselves
+    - They are on the tree that are pointing to them
+    - Note that tree objects are recursive in nature
+    - A tree can point to a tree which points to another tree that points to ablob
