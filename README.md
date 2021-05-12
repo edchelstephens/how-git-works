@@ -54,3 +54,7 @@
     committer Edchel Stephen <yahshua.ninies@gmail.com> 1620697486 +0800
 
     README notes on course.
+
+## Tags
+
+    - tags are just a label attached to an object
