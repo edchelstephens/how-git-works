@@ -65,3 +65,12 @@
     - They are on the tree that are pointing to them
     - Note that tree objects are recursive in nature
     - A tree can point to a tree which points to another tree that points to ablob
+
+## Branches
+
+    - A branch is nothing else that a simple reference
+    - A branch is just a reference to a commit!
+    - That's why the directory containing branches is called `refs` for references
+    - The default `master` branch has NO special status on git,
+    - Git created the master branch by default for our first commit but it's just like
+      any other branch
