@@ -74,3 +74,7 @@
     - The default `master` branch has NO special status on git,
     - Git created the master branch by default for our first commit but it's just like
       any other branch
+
+## REFS
+
+    - HEAD is just a reference to a branch, the current head branch
