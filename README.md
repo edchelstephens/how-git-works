@@ -96,3 +96,10 @@
       What git cares about are the objects on the .git/objects database
       The objects in the database are immutable and persistent, while the files in our working
       directory are transient and can change anytime.
+
+## Fast-forward
+
+    - After merging master with branch A, and checking out to branch A and merging again with master.
+    - Git doesn't create a new commit for the merge, since it's already been created in master.
+    - Instead, the branch A will now just point to the latest commit, and copy all the objects from that commit history onto brach A.
+    - This is fast-forward merging.
