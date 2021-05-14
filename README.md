@@ -105,11 +105,13 @@
     - Instead, the branch A will now just point to the latest commit, and copy all the objects from that commit history onto brach A.
     - This is fast-forward merging.
 
-
 # Detached head
+
     - checkout on a commit, not a branch
     - this makes head detached
     - this is useful if you want to experiment some code and move away from branches,
-      since this is detached, it will not be reachable by any branch and can be 
+      since this is detached, it will not be reachable by any branch and can be
       garbage collected anytime soon. So if your experiment turns out good, you
       need to put it on a branch, so that your work will be saved not be garabage collected.
+
+# Additional detach head changes by making it automatically a branch
