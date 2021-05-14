@@ -78,3 +78,21 @@
 ## REFS
 
     - HEAD is just a reference to a branch, the current head branch
+    - References between commits are used to track history
+    - All other references are used to track content
+    - When you checkout a branch, git doesn't care about history.
+      It doesn't look at the ways that commits connect to each other.
+      It just cares about trees and blobs.
+
+## Git
+
+    - Git content management is simple.
+    - Don't be confused with blobs and trees :)
+    - We should just focus on history, how commits connect to each other.
+      Trust git to do the right thing with blobs and trees.
+    - Git is just a stupid content tracker :)
+    - Git doesn't really care about our working area.
+      When we checkout, git just replaces the working area with the stuff from the object database.
+      What git cares about are the objects on the .git/objects database
+      The objects in the database are immutable and persistent, while the files in our working
+      directory are transient and can change anytime.
