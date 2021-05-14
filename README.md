@@ -96,6 +96,7 @@
       What git cares about are the objects on the .git/objects database
       The objects in the database are immutable and persistent, while the files in our working
       directory are transient and can change anytime.
+    - When you checkout a branch, you are just changing .git/HEAD
 
 ## Fast-forward
 
