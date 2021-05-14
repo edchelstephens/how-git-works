@@ -104,3 +104,8 @@
     - Git doesn't create a new commit for the merge, since it's already been created in master.
     - Instead, the branch A will now just point to the latest commit, and copy all the objects from that commit history onto brach A.
     - This is fast-forward merging.
+
+
+# Detached head
+    - checkout on a commit, not a branch
+    - this makes head detached
