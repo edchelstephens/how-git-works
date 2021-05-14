@@ -109,3 +109,7 @@
 # Detached head
     - checkout on a commit, not a branch
     - this makes head detached
+    - this is useful if you want to experiment some code and move away from branches,
+      since this is detached, it will not be reachable by any branch and can be 
+      garbage collected anytime soon. So if your experiment turns out good, you
+      need to put it on a branch, so that your work will be saved not be garabage collected.
