@@ -147,3 +147,12 @@
 # Git history
 
     - git history is a GRAPH, not a line or timeline per say
+
+# Git merge
+
+    - merges keep history - which is a good thing.
+    - also, merges do not lie
+
+# Git rebase
+
+    - rebases refactors history, it makes it cleaner but since this changes history, it can also cause unwanted side effects and confusions(e.g. same commit message on different branch, now rebased on a single branch with confusing commit messages)
