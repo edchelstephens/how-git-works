@@ -119,3 +119,11 @@
 # Three Rules in git
 
 1. The current branch tracks new commits
+
+    - a merge is also a commit, merging of two commits
+
+2. When you move to another commit(for example git checkout branch or git checkout a commit), Git updates your working directory automatically
+
+    - Git replaces the content of your directory with the content that can be reached with the checked out commit
+
+3. Unreachable objects are garbage collected
