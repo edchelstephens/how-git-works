@@ -131,3 +131,8 @@
 # Rebase
 
 -   Rebase is just simply changing the base pointed to by the referenced commit
+
+# Git objects
+
+    - the objects in the .git/objects database are immutable
+    - if you change anything in a commit, then you get a different hash all the time
