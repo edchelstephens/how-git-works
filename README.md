@@ -143,3 +143,7 @@
 
     - the objects in the .git/objects database are immutable
     - if you change anything in a commit, then you get a different hash all the time, which means a new commit
+
+# Git history
+
+    - git history is a GRAPH, not a line or timeline per say
