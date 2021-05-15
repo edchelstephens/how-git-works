@@ -131,6 +131,13 @@
 # Rebase
 
 -   Rebase is just simply changing the base pointed to by the referenced commit
+-   But it's more that that,
+-   Here's how it it really works:
+    -   When you rebase, it creates new commits with mostly the same data, actually exactly the same data EXCEPT for their parents since they are new commits.
+    -   So these new commits almost look exactly like the original commits. but they are new objects with new SHA1-s, so they are new files with new file names in the database directory.
+    -   Finally, git moves the rebased branch to the new commits leaving the olds commits behind.
+    -   This is how rebasing actually works.
+    -   Rebasing is an operation that creates new commits.
 
 # Git objects
 
