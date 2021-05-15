@@ -127,3 +127,7 @@
     - Git replaces the content of your directory with the content that can be reached with the checked out commit
 
 3. Unreachable objects are garbage collected
+
+# Rebase
+
+-   Rebase is just simply changing the base pointed to by the referenced commit
