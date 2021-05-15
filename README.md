@@ -161,3 +161,8 @@
 # Merge vs Rebase
 
     - When in doubt, use merge
+
+# Tags vs Branches
+
+    - a tag is a reference to a commit, just like a branch, but it doesn't move
+    - branches changes but tags don't. Tag's stays the same forever
