@@ -115,3 +115,7 @@
       need to put it on a branch, so that your work will be saved not be garbage collected.
 
 # Additional detach head changes by making it automatically a branch
+
+# Three Rules in git
+
+1. The current branch tracks new commits
