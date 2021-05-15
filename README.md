@@ -156,3 +156,7 @@
 # Git rebase
 
     - rebases refactors history, it makes it cleaner but since this changes history, it can also cause unwanted side effects and confusions(e.g. same commit message on different branch, now rebased on a single branch with confusing commit messages)
+
+# Merge vs Rebase
+
+    - When in doubt, use merge
