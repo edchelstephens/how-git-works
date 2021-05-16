@@ -167,7 +167,7 @@
     - a tag is a reference to a commit, just like a branch, but it doesn't move
     - branches changes but tags don't. Tag's stays the same forever
 
-# Distribution
+# Distributed Version Control
 
     - Like a local branch, a remote branch is just a reference to a commit.
     - Again, git don't care about directory files, git only cares about the objects in the .git/objects database,
